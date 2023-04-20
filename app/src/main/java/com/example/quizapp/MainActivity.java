@@ -10,6 +10,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Auth Chanakijkamjorn 21803849 SIT305
+
     //Declare variables
     Button start;
     EditText inputname;
