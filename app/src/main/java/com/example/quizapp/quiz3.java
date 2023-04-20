@@ -96,7 +96,7 @@ public class quiz3 extends AppCompatActivity implements View.OnClickListener {
                 Intent newIntent = new Intent(quiz3.this, End.class);
                 newIntent.putExtra("name",inputname);
                 //If and else for adding score
-                if (clicked.getId()==R.id.button11){
+                if (clicked.getId()==R.id.button9){
                     newIntent.putExtra("score",updatedscore+1);
                     newIntent.putExtra("bar",currentprogress +30);
 
